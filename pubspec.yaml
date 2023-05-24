@@ -1,0 +1,43 @@
+name: stoppie
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inset_box_shadow: ^1.0.8
+  flutter_svg: ^2.0.6
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.0
+
+flutter_native_splash:
+  color: "#18D6E7"
+  image: assets/logo/stoppy.png
+  android: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svgs/
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/sf-pro-text-light.ttf
+          weight: 300
+        - asset: assets/fonts/sf-pro-text-medium.ttf
+          weight: 500
+        - asset: assets/fonts/sf-pro-text-regular.ttf
+          weight: 400
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/helvetica-regular.otf
+          weight: 400
